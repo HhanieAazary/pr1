@@ -23,7 +23,7 @@ export default function Coinpages() {
                 setCoin(response.data);
             })
             .catch((error) => {
-                setError("An error ecuredd.")
+                setError("An error ecured.")
             });
 
     }, [])
