@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: aqua; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wrapper{
+  /* background-color:darkmagenta; */
+
+  /* baraye chasbidane footer be wrapper az tabe calc estefade mishe:
+  navbar height = 56 px(40+8+8)
+   footer height = 24 px */
+  min-height: calc(100vh - 56px - 24px);
+
+}
+.about_img{
+  width : 350px;
+  height: 350px;
+}
